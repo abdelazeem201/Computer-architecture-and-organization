@@ -3,7 +3,7 @@
     int i, j, n, sum_int = 0;
     printf("Input a negative number less than 100: \n");
     scanf("%d", & n);
-    if (n > 1 || n >= 100) {
+    if (n < 1 || n >= 100) {
       printf("Wrong input\n");
       return 0;
     }
